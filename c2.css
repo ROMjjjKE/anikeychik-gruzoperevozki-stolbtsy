@@ -1,0 +1,19 @@
+.top{background:var(--ink);color:#dfe1e2;font-size:.85rem}
+.top .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;padding:9px 0}
+.top b{color:#fff}
+.hdr{position:sticky;top:0;z-index:60;background:rgba(247,246,243,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line2)}
+.hrow{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
+.logo{display:flex;align-items:center;gap:11px;min-width:0}
+.logo i{width:36px;height:36px;border-radius:8px;background:var(--ink);display:grid;place-items:center;flex:none}
+.lg-t{display:block;font-family:var(--f);font-size:1.28rem;font-weight:600;line-height:1.05;letter-spacing:0}
+.lg-s{display:block;font-size:.74rem;color:var(--ink3);line-height:1.2;margin-top:2px}
+.nav{display:flex;gap:20px;font-size:.92rem}
+.nav a{padding:5px 0;border-bottom:1px solid transparent;transition:border-color .16s}
+.nav a:hover{border-color:var(--cher)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--fb);font-weight:500;font-size:.94rem;padding:12px 20px;border-radius:999px;border:1px solid transparent;cursor:pointer;transition:background .16s,color .16s,border-color .16s;white-space:nowrap}
+.btn-acc{background:var(--cher);color:#fff}
+.btn-acc:hover{background:var(--cher-d)}
+.btn-ghost{border-color:var(--line);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--ink)}
+.btn-wa{background:#0f5132;color:#fff}
+.btn-wa:hover{background:#0a3a24}
